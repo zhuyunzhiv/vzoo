@@ -1,8 +1,105 @@
-<DOCTYPE html>
-<html>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta charset="UTF-8">
-<title>新乡市微赞网络技术有限公司</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>新乡微赞CRM系统</title>
+<style type="text/css">
+*{
+	margin: 0px;
+	padding: 0px;
+	}
+body{
+	position:absolute;
+	width:100%;
+	height:100%;
+	text-align:center;	
+	
+}
+#all {
+	position:absolute;
+	top:0;
+	left:0;
+	height: 100%;
+	width: 100%;
+	background:-webkit-linear-gradient(top,white,green);
+}
+h2{
+	font-size:3vw;
+	}
+#login_center {
+	margin:0 auto;
+	height: auto;
+	width: 200px;
+	
+}
+#login_center #login_form_div{
+	position:relative;
+	top:100px;
+	height: auto;
+	width: 200px;
+	
+}
+#login_center #login_form_div form table {
+	height: auto;
+	width: 200px;
+	border:none;
+	border-width:0;
+}
+#login_center #login_form_div form table tr td {
+	border:none;
+	border-width:0px;
+}
+#login_center #login_form_div form table tr td input {
+	margin-top:10px;
+	width:200px;
+	height:30px;
+	border:none;
+	border-width:0;
+	text-align:center;
+	}
+
+</style>
 </head>
-<body>now,目前测试github库的使用情况</body>
+<body>
+<div id="all">
+<div id="login_center">
+<div id="login_form_div">
+<form method="post" >
+<table>
+<tr>
+<td><img src="user/img/256.png" style="width:80%; height:auto;" /></td>
+</tr>
+<tr>
+<td><h2></h2></td>
+</tr>
+<tr>
+<td><input name="username" type="text" placeholder="请输入管理员给你的用户名" /></td>
+</tr>
+<tr>
+<td><input name="userpwd" type="password" placeholder="请填写个人后台密码" /></td>
+</tr>
+<tr>
+<td><input type="submit" id="subbut" value="登录" /></td>
+</tr>
+</table>
+</form>
+</div>
+</div>
+</div>
+</body>
+<!--<script src="user/js/JQ_v3.3.1.js"></script>
+<script type="text/javascript">
+var XMLHttp=null
+if (window.XMLHttpRequest)
+  {
+  XMLHttp=new XMLHttpRequest()
+  }
+else if (window.ActiveXObject)
+  {
+  XMLHttp=new ActiveXObject("Microsoft.XMLHTTP")
+  }
+
+</script>-->
 </html>
